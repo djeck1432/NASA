@@ -36,14 +36,14 @@ if __name__ == '__main__':
     empty_rocket_mass = int(input())
     gravities = []
     while True:
-        print('Please, input, gravity for', colored('launching: ', 'green'))
+        print('Please, input gravity for', colored('launching: ', 'green'))
         launch_gravity = float(input())
-        print('Please, input, gravity for', colored('landing: ', 'green'))
+        print('Please, input gravity for', colored('landing: ', 'green'))
         land_gravity = float(input())
         gravities.append([launch_gravity, land_gravity])
-        print('If you would like to exit, press: ', colored('q', 'red'))
+        print('If you would like to exit, press: ', colored('r', 'green'))
         print('If you would like to continue, press: ', colored('c', 'green'))
-        if str(input()) == 'q':
+        if str(input()) == 'r':
             break
 
     weight_fuel = get_required_fuel(empty_rocket_mass, gravities)
