@@ -1,4 +1,4 @@
-
+from termcolor import colored
 
 def get_fuel_launch(mass, gravity):
     additional_fuel = int(mass * gravity * 0.042 - 33)
@@ -32,4 +32,19 @@ def get_required_fuel(empty_rocket_mass, gravities):
 
 
 if __name__ == '__main__':
-    get_required_fuel(empty_rocket_mass, gravities)
+    print('Please, input, ', colored('weight of equipment:', 'green'))
+    empty_rocket_mass = int(input())
+    gravities = []
+    while True:
+        print('Please, input, gravity for', colored('launching: ', 'green'))
+        launch_gravity = float(input())
+        print('Please, input, gravity for', colored('landing: ', 'green'))
+        land_gravity = float(input())
+        gravities.append([launch_gravity, land_gravity])
+        print('If you would like to exit, press: ', colored('q', 'red'))
+        print('If you would like to continue, press: ', colored('c', 'green'))
+        if str(input()) == 'q':
+            break
+
+    weight_fuel = get_required_fuel(empty_rocket_mass, gravities)
+    print('Total weight fuel', colored(weight_fuel, 'green'), 'kg')
