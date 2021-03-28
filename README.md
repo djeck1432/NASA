@@ -33,15 +33,15 @@ source venv/bin/activate
 ```bash
 git clone https://github.com/djeck1432/NASA.git
 ```
-9. Open the project:
+9. Open the repo:
 ```bash
 cd NASA
 ```
-10. Install all requirement packages, run the next command:
+10. Install all requirement packages:
 ```bash
 pip3 install -r requirements.txt
 ```
-11. Run the app:
+11. Run the script:
 ```bash
 python3 calculate_fuel.py
 ```
