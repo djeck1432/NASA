@@ -29,23 +29,19 @@ python3 -m virtualenv venv
 ```bash
 source venv/bin/activate
 ```
-6. Create a folder for the app:
-```bash
-mkdir app
-```
-7. Open your `app` folder:
-```bash
-cd app
-```
 8. Run the next command for downloading `repo`:
 ```bash
 git clone https://github.com/djeck1432/NASA.git
 ```
-9. Install all requirement packages, run the next command:
+9. Open the project:
+```bash
+cd NASA
+```
+10. Install all requirement packages, run the next command:
 ```bash
 pip3 install -r requirements.txt
 ```
-10. Run the app:
+11. Run the app:
 ```bash
 python3 calculate_fuel.py
 ```
