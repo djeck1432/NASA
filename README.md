@@ -5,7 +5,7 @@
 
 # Menu:
 1.Installation
-2. <a name='example'>How to use </a>
+2.[How to use](#example)
 
 
 ## Installation
@@ -25,7 +25,6 @@ cd nasa_project
 ```bash
 python3 -m virtualenv venv
 ```
-<a name="env"></a> 
 5. Activate virtual enviroment, run the next command:
 ```bash
 source venv/bin/activate
@@ -54,7 +53,7 @@ python3 calculate_fuel.py
 
 ## How to use
 #### Example
-[](#example)
+<a name='example'> </a>
 1. Run the app:
 ```bash
 python3 calculate_fuel.py
