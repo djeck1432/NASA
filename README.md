@@ -3,7 +3,13 @@
  The goal of this application is to calculate fuel to launch from one planet of the Solar system, and to land on another planet of the Solar system,
  depending on the flight route.
 
-## Quick start
+# Menu:
+1.Installation
+2. <a name='example'>How to use </a>
+
+
+## Installation
+
 #### In example will be use `UNIX` (MacOs/Linux)
 
 1. Open your terminal. 
@@ -40,9 +46,44 @@ git clone https://github.com/djeck1432/NASA.git
 ```bash
 pip3 install -r requirements.txt
 ```
+10. Run the app:
+```bash
+python3 calculate_fuel.py
+```
 
 
 ## How to use
-In terminal, run the next commnads:
-Please, activate your `enviroment` before you will use the code. How to activate, click [here](#env)
+#### Example
+[](#example)
+1. Run the app:
+```bash
+python3 calculate_fuel.py
+```
+2. Input a weight of equipment, as in example:
+```bash
+Please, input,  weight of equipment:
+28801
+```
+3. Input gravity for launching:
+```bash
+Please, input, gravity for launching: 
+9.807
+```
+4. Input gravity for landing:
+```bash
+Please, input, gravity for landing: 
+1.62
+```
+5. If you would like get a result, press `r` if you would like add extra root, press `c`:
+```bash
+If you would like to get a result, press:  r
+If you would like to continue, press:  c
+r or c
+```
+6. Get a weight fuel:
+```bash
+weight_fuel
+```
+
+
 
