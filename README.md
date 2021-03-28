@@ -6,6 +6,7 @@
 
 ### 1. Installation
 ### 2. [How to use](#example)
+### 3. [Run the tests](#tests)
 
 
 ## Installation
@@ -78,4 +79,12 @@ r or c
 6. Get a weight fuel:
 ```bash
 Total weight fuel 22380 kg
+```
+
+
+## Run the test
+<a href='test'>
+In terminal, in root folder, run the next command:
+```bash
+pytest tests.py
 ```
