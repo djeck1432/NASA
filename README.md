@@ -4,8 +4,8 @@
  depending on the flight route.
 
 # Menu:
-1.Installation
-2.[How to use](#example)
+### Installation
+### [How to use](#example)
 
 
 ## Installation
@@ -83,6 +83,3 @@ r or c
 ```bash
 weight_fuel
 ```
-
-
-
