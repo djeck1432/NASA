@@ -19,6 +19,7 @@ cd nasa_project
 ```bash
 python3 -m virtualenv venv
 ```
+<a name="env"></a> 
 5. Activate virtual enviroment, run the next command:
 ```bash
 source venv/bin/activate
@@ -39,7 +40,9 @@ git clone https://github.com/djeck1432/NASA.git
 ```bash
 pip3 install -r requirements.txt
 ```
-10. Run the app:
-```bash
-python3 calculate_fuel.py 
-```
+
+
+## How to use
+In terminal, run the next commnads:
+Please, activate your `enviroment` before you will use the code. How to activate, click [here](#env)
+
