@@ -81,5 +81,5 @@ r or c
 ```
 6. Get a weight fuel:
 ```bash
-weight_fuel
+Total weight fuel 21745 kg
 ```
