@@ -6,7 +6,7 @@
 
 ### 1. Installation
 ### 2. [How to use](#example)
-### 3. [Run the tests](#tests)
+### 3. [Run the tests](#test)
 
 
 ## Installation
@@ -90,10 +90,12 @@ pytest tests.py
 ```
 ### Test data
 #### Apollo 11:
+```
   path: launch Earth, land Moon, launch Moon, land Earth
   weight of equipment: `28801` kg
   weight of fuel: `51898` kg
   arguments: `28801`, `[[:launch, 9.807], [:land, 1.62], [:launch, 1.62], [:land, 9.807]]`
+```
 #### Mission on Mars:
    path: launch Earth, land Mars, launch Mars, land Earth
    weight of equipment: `14606` kg
