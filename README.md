@@ -10,26 +10,26 @@
 
 ## Installation
 
-#### In example will be use `UNIX` (MacOs/Linux)
+#### For an example will be using `UNIX` (MacOs/Linux)
 
-1. Open your terminal. 
-2. Create new folder for the repo, run the next command:
+1. Open your terminal and run the next commands.
+2. Create a new folder for the repo:
 ```bash
 mkdir nasa_project
 ```
-3. Move to new folder, run the next command:
+3. Open the new folder:
 ```bash
 cd nasa_project
 ```
-4. Create virtual enviroment, run the next command:
+4. Create a virtual environment:
 ```bash
 python3 -m virtualenv venv
 ```
-5. Activate virtual enviroment, run the next command:
+5. Activate a virtual environment:
 ```bash
 source venv/bin/activate
 ```
-6. Create folder for the app:
+6. Create a folder for the app:
 ```bash
 mkdir app
 ```
@@ -58,22 +58,22 @@ python3 calculate_fuel.py
 ```bash
 python3 calculate_fuel.py
 ```
-2. Input a weight of equipment, as in example:
+2. Input a weight of equipment, as in the example:
 ```bash
-Please, input,  weight of equipment:
+Please, input weight of equipment:
 28801
 ```
 3. Input gravity for launching:
 ```bash
-Please, input, gravity for launching: 
+Please, input gravity for launching: 
 9.807
 ```
 4. Input gravity for landing:
 ```bash
-Please, input, gravity for landing: 
+Please, input gravity for landing: 
 1.62
 ```
-5. If you would like get a result, press `r` if you would like add extra root, press `c`:
+5. If you would like to get a result, press `r`, if you would like to add extra route, press `c`:
 ```bash
 If you would like to get a result, press:  r
 If you would like to continue, press:  c
@@ -81,5 +81,5 @@ r or c
 ```
 6. Get a weight fuel:
 ```bash
-Total weight fuel 21745 kg
+Total weight fuel 22380 kg
 ```
